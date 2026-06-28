@@ -1,55 +1,52 @@
 // ============================================================
 // clinic.config.js
 // ============================================================
-// ده الملف الوحيد اللي بتعدله لما تعمل نسخة لعيادة جديدة.
-// كل الموقع بيقرأ بياناته من هنا.
-// ============================================================
 
 export const clinic = {
   // ── الاسم ────────────────────────────────────────────────
-  name: "Hullbridge Dental Clinic",
-  shortName: "Hullbridge Dental", // بيتستخدم في أماكن ضيقة
+  name: "Ware Dental Care",
+  shortName: "Ware Dental",
 
   // ── التواصل ──────────────────────────────────────────────
-  phone: "01702 231 067",
-  phoneTel: "+441702231067",       // لـ href="tel:..."
-  email: "info@hullbridgedentalclinic.co.uk",
-  emailFrom: "noreply@hullbridgedentalclinic.co.uk", // بريد الإرسال
+  phone: "01920 462208",
+  phoneTel: "+441920462208",
+  email: "waredentalcare@btconnect.com",
+  emailFrom: "noreply@waredentalcare.co.uk",
 
   // ── العنوان ──────────────────────────────────────────────
   address: {
-    street: "130 Ferry Road",
-    city: "Hullbridge",
-    county: "Essex",
-    postcode: "SS5 6EU",
+    street: "3 West Street",
+    city: "Ware",
+    county: "Hertfordshire",
+    postcode: "SG12 9EE",
     country: "GB",
-    full: "130 Ferry Road, Hullbridge, Essex, SS5 6EU", // للعرض المختصر
+    full: "3 West Street, Ware, Hertfordshire, SG12 9EE",
   },
 
   // ── الموقع الجغرافي ───────────────────────────────────────
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=130%20Ferry%20Road%20Hullbridge%20Essex%20SS5%206EU&t=m&z=15&output=embed",
+    "https://maps.google.com/maps?q=3%20West%20Street%20Ware%20Hertfordshire%20SG12%209EE&t=m&z=15&output=embed",
 
   // ── السوشيال ميديا ────────────────────────────────────────
   social: {
-    facebook: "https://en-gb.facebook.com/hullbridgedentalclinic/",
-    instagram: "#", // غير لما يكون عندهم
+    facebook: "#",
+    instagram: "#",
   },
 
   // ── الموقع الإلكتروني ─────────────────────────────────────
-  siteUrl: "https://www.hullbridgedentalclinic.co.uk",
+  siteUrl: "https://www.waredentalcare.co.uk",
 
   // ── التقييمات ─────────────────────────────────────────────
   reviews: {
-    rating: "5.0",
-    count: 10,
+    rating: "4.2",
+    count: 82,
   },
 
-  // ── SEO – وصف الموقع ──────────────────────────────────────
+  // ── SEO ──────────────────────────────────────────────────
   seo: {
-    defaultTitle: "Hullbridge Dental Clinic — Dentist in Hullbridge, Essex",
+    defaultTitle: "Ware Dental Care — Dentist in Ware, Hertfordshire",
     defaultDescription:
-      "Independent dental surgery on Ferry Road, Hullbridge. Preventative, restorative and cosmetic dentistry for the whole family.",
-    tagline: "Independent dental care on Ferry Road, Hullbridge, Essex.",
+      "Established family dental practice on West Street, Ware. General, advanced and specialist dental care for the whole family for over 60 years.",
+    tagline: "Trusted family dental care in the heart of Ware, Hertfordshire.",
   },
 };
