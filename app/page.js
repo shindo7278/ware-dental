@@ -6,6 +6,8 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { clinic } from "@/clinic.config";
 
+export const dynamic = "force-dynamic";
+
 // Reads the admin-controlled hero video URL straight from the
 // database on every request, so uploading/removing it in
 // /admin/homepage takes effect immediately with no caching step.
